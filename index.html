@@ -1,0 +1,157 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/regular.min.css" integrity="sha512-aNH2ILn88yXgp/1dcFPt2/EkSNc03f9HBFX0rqX3Kw37+vjipi1pK3L9W08TZLhMg4Slk810sPLdJlNIjwygFw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+      <title>Cryptoc Coin</title>
+  </head>
+  <body>
+      <!--------------------------------------------------Nav_bar-------------------------------------------------------------->
+      <div class="nav"  >
+        <section class="first">
+        <nav>
+          <img src="images/logo4.jpg" id="logo" ><h1>Crypto Currency</h1>
+                  <a href="#" id="navlist">Home<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#" id="navlist">About<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#" id="navlist">Services<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#" id="navlist">Team<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#" id="navlist">footer</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+          </nav>
+     </section>
+      </div>
+      <!------------------------------------------------Home Section--------------------------------------------------->
+    <div class="main">
+      <div class="corosel" id="header">
+        <section class="carousel" aria-label="Gallery">
+              <ol class="carousel__viewport">
+                <li id="carousel__slide1"
+                    tabindex="0"
+                    class="carousel__slide">
+                  <div class="carousel__snapper">
+                    <a href="#carousel__slide4"
+                       class="carousel__prev">Go to last slide</a>
+                    <a href="#carousel__slide2"
+                       class="carousel__next">Go to next slide</a>
+                  </div>
+                </li>
+                <li id="carousel__slide2"
+                    tabindex="0"
+                    class="carousel__slide">
+                  <div class="carousel__snapper"></div>
+                  <a href="#carousel__slide1"
+                     class="carousel__prev">Go to previous slide</a>
+                  <a href="#carousel__slide3"
+                     class="carousel__next">Go to next slide</a>
+                </li>
+                <li id="carousel__slide3"
+                    tabindex="0"
+                    class="carousel__slide">
+                  <div class="carousel__snapper"></div>
+                  <a href="#carousel__slide2"
+                     class="carousel__prev">Go to previous slide</a>
+                  <a href="#carousel__slide4"
+                     class="carousel__next">Go to next slide</a>
+                </li>
+                <li id="carousel__slide4"
+                    tabindex="0"
+                    class="carousel__slide">
+                  <div class="carousel__snapper"></div>
+                  <a href="#carousel__slide3"
+                     class="carousel__prev">Go to previous slide</a>
+                  <a href="#carousel__slide1"
+                     class="carousel__next">Go to first slide</a>
+                </li>
+              </ol>
+              <aside class="carousel__navigation">
+                <ol class="carousel__navigation-list">
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide1"
+                       class="carousel__navigation-button">Go to slide 1</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide2"
+                       class="carousel__navigation-button">Go to slide 2</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide3"
+                       class="carousel__navigation-button">Go to slide 3</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide4"
+                       class="carousel__navigation-button">Go to slide 4</a>
+                  </li>
+                </ol>
+              </aside>
+            </section>
+        </div>
+        <!--------------------------------------------section------------------------------->
+        <div class="display">
+  
+            <h1>A New Money <span >Cryptocurrency</span></h1><br><br>
+  
+            <p>We can change life with the teach of new kind of money and use anywhere as our wish.<br>
+                Digital currency (digital money or electronic money or electronic currency) is a <br>
+                type of currency available only in digital form, not in physical (such as banknotes and <br>
+                coins).It exhibits properties similar to physical currencies, but allows for instantaneous <br>
+                transactions and borderless transfer-of-ownership. Examples include virtual currencies <br>
+                and cryptocurrencies or even central bank issued "digital base money".<br><br>
+          <button type="button" id="button"> Read More</button>
+            </p>
+            <img src="images/coin.png" id="image">
+        </div>
+    
+      <!----------------------------------------------Crypto Currency Data----------------------------------------------------------->
+      <div class="container">
+        <h1>CRYPTO CURRENCY INFORMATION</h1>
+        <table   style="width:100%;">
+            <thead>
+                <tr class="tabledata"  id="tabledata" style="height: 25%;">
+                        <th width="25%" id="name">Name</th>
+                        <th width="25%" id="price">Btc Price</th>
+                        <th width="25%" id="mcap">Market_cap</th>
+                        <th width="25%" id="time">Time</th>
+                </tr>
+          </thead>
+       <tbody id="data">
+        </tbody>
+      </table>
+    </div>
+    <div class="calculate">
+      <div id="calci">
+       <h1>Cryptocurrency Calculator For Any Kind Of Currency.</h1> 
+         <p>Hey there, we created this Crypto Investment Calculator to facilitate your calculations of crypto profits and losses.
+        </p><br>
+        <input type="text" id="calculatePrice" oninput="getChecked()">
+        <label for="convert"></label>
+        <select name="convert" id="convert">   
+       </select><br>
+       <select name="convertcurrencies" id="referencecurrencies">   
+      </select>
+     
+      <div id="result"> <span id="resultPrice"></span></div>
+      <div id="hours">Time</div>
+      </div>
+  
+    </div>
+    <!---Images Grid-->
+    <div class="images" id="showImages">
+    </div>     
+        <!---------------------------------------------footer----------------------------------------------->
+        <div class="footer">
+            Copyright  &#169;2022 creative3!!!!.... All Rights Reserved<br>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>&nbsp;&nbsp;
+                 <i class="fa fa-instagram"></i>&nbsp;&nbsp;
+                 <i class="fa fa-twitter"></i>&nbsp;&nbsp;
+                 <i class="fa fa-linkedin"></i>&nbsp;&nbsp;
+             </div>
+        </div>
+    </div> 
+    <script src="/script.js"></script>
+  </body>
+  </html>
